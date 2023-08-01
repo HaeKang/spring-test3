@@ -1,6 +1,5 @@
 package hello.itemservice.web.validation;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import hello.itemservice.domain.item.Item;
 import hello.itemservice.domain.item.ItemRepository;
 import lombok.RequiredArgsConstructor;
