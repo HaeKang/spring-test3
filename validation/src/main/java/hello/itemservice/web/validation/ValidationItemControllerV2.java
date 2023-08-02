@@ -132,7 +132,7 @@ public class ValidationItemControllerV2 {
     }
 
 //    @PostMapping("/add")
-    public String addItemV3(@ModelAttribute Item item, BindingResult bindingResult, RedirectAttributes redirectAttributes, Model model) {
+    public String addItemv4(@ModelAttribute Item item, BindingResult bindingResult, RedirectAttributes redirectAttributes, Model model) {
         Item savedItem = itemRepository.save(item);
 
         // 검증로직
